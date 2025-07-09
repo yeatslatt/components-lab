@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Label } from "@/components/ui/label"
+// import { Label } from "@/components/ui/label"
 import { ChevronUp } from "lucide-react"
 import { Textarea } from "@/components/ui/textarea"
 import Image from "next/image"
@@ -30,7 +30,7 @@ function InstrucaoLayout() {
                     <div className="mt-4">
                         <div className="space-y-4">
                             <div>
-                                <Label htmlFor="instrucoes">Instruções</Label>
+                                {/* <Label htmlFor="instrucoes">Instruções</Label> */}
                                 <Textarea
                                     id="instrucoes"
                                     placeholder="Informe instruções complementares para a IA gerar o contrato para você."
