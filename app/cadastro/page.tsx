@@ -1,5 +1,5 @@
 "use client"
-
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import ContratadoLayout from "@/layout/ContratadoLayout"
 import ContratanteLayout from "@/layout/ContratanteLayout"
 import ConfigModelLayout from "@/layout/ConfigModelLayout"
